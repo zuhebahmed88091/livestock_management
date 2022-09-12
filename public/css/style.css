@@ -1,0 +1,172 @@
+.ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.form-group.has-error .select2-selection {
+    border-color: #dd4b39;
+    box-shadow: none;
+}
+
+.thumbnail.medium {
+    max-width: 200px;
+}
+
+.table-show tbody tr th {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+}
+
+.vl {
+    border-right: 1px solid #d6d6d6;
+    min-height: 180px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.input-group-btn select.form-control {
+    width: 100px;
+    border-left: 0;
+}
+
+.dataTables_scrollBody {
+    width: 98%
+}
+
+select.form-control {
+    cursor: pointer !important;
+}
+
+.select2-container.select2-container-disabled .select2-choice {
+    background-color: #ddd;
+    border-color: #a8a8a8;
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .row.equal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.medium-rectangle {
+    width: 180px;
+    height: 120px;
+    max-height: 100px;
+    min-height: 100px;
+    border-radius: 0 !important;
+    border: 1px solid #f9f9f9;
+}
+
+/*
+ * Component: Summer note
+ * ---------------------
+ */
+
+.note-editor.note-frame {
+    border-radius: 0;
+    border: 1px solid #e6e6e6 !important;
+}
+
+.note-editor.note-frame .modal.show {
+    z-index: 9999 !important;
+}
+
+.note-editor .btn-default {
+    border-radius: 0;
+    background: #ffffff;
+}
+
+.form-group.has-error .note-editor.note-frame {
+    border-color: #dd4b39 !important;
+    box-shadow: none;
+}
+
+.hide-quick-search .dataTables_filter label {
+    display: none;
+}
+
+a.info-link {
+    color: #333;
+}
+
+.alert.alert-danger li{
+    list-style-type: none !important;
+}
+
+/* inline css modifications*/
+.h-100{
+    height: 100% !important;
+}
+.w-100{
+    width: 100% !important;
+}
+.w-120{
+    width:120px;
+}
+.h-280{
+    height:280px;
+}
+.mw-100{
+    min-width:100px !important;
+    width: 100px;
+}
+.mxw-70{
+    max-width:70px;
+}
+.mw-145{
+    min-width:145px !important;
+}
+.d-none{
+    display: none;
+}
+.d-none-imp{
+    display: none !important;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.form-image{
+    width: 34px; 
+    height: 34px;
+    margin-right: 10px;
+}
+.profile-image{
+    width: 128px; 
+    height: 128px;
+}
+
+.image-in-list{
+    width: 24px; 
+    height: 24px;
+}
+
+.logo-img{
+    height: 35px;
+    margin-right: 10px;
+}
+
+.balance-box{
+    border: 1px solid #d6d6d6;
+    padding:6px;
+    margin-bottom: 5px;
+}

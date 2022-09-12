@@ -1,0 +1,57 @@
+.gallery {
+    display: flex;
+}
+
+.gallery .previews, .gallery .full {
+    float: left;
+    height: 250px;
+}
+
+.gallery .previews {
+    overflow: hidden;
+    width: 70px;
+}
+
+.gallery .full {
+    position: relative;
+    flex-basis: 100%;
+}
+
+.gallery .full img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 200px;
+    max-height: 240px;
+    width: auto;
+    height: auto;
+}
+
+.gallery .previews a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.gallery .previews a img {
+    margin: 0 auto;
+    max-width: 50px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
+.gallery .full img:hover {
+    cursor: pointer;
+}
+
+.gallery .previews a {
+    border: 1px solid #eee;
+    padding: 3px;
+}
+
+.gallery .previews a:hover, .gallery .previews a.selected {
+    border: 1px solid #aaa;
+}
